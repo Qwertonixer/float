@@ -1,0 +1,85 @@
+body {
+    background: #C4C4C4;
+}
+
+#block {
+    background: #FC8F8F;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+#block2 {
+    background: #FC8F8F;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.float {
+    float: right;
+}
+
+.container1,
+.container2,
+.container3 {
+    margin: 50px;
+    background: #E6E6E6;
+}
+
+/* Первый контейнер */
+
+.cont1_block1,
+.cont1_block2 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.cont1_block2 {
+    float: right;
+}
+
+/* Второй контейнер */
+
+.cont2_block1 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.cont2_block2,
+.cont2_block3,
+.cont2_block4,
+.cont2_block5 {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+/* Третий контейнер */
+
+.cont3_block1,
+.cont3_block2 {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.cont3_block3,
+.cont3_block4 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 15px;
+}
