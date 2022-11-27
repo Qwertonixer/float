@@ -2,6 +2,12 @@ body {
     background: #C4C4C4;
 }
 
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 #block {
     background: #FC8F8F;
     text-align: center;
